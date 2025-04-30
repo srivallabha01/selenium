@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'VishwasMaven'  // Assuming you configured Maven with this name
+        maven 'Maven'  // Assuming you configured Maven with this name
         jdk 'JDK'             // Use the JDK name that exists in Jenkins
     }
 
